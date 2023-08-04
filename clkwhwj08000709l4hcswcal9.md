@@ -12,7 +12,7 @@ When it comes to troubleshooting on Unix/Linux systems, having the right approac
 
 Let's dive into some common scenarios and their solutions:
 
-**Issue 1: Server Connectivity Problem** 🔍 **Approach / Solution**:
+### **Issue 1: Server Connectivity Problem** 🔍 **Approach / Solution**:
 
 * ✅ Ping server by Hostname and IP Address.
     
@@ -31,7 +31,7 @@ Let's dive into some common scenarios and their solutions:
         * 🔌 Examine physical cable connections.
             
 
-**Issue 2: Unable to Connect to Website/Application** 🔍 **Approach / Solution**:
+### **Issue 2: Unable to Connect to Website/Application** 🔍 **Approach / Solution**:
 
 * ✅ Ping server by Hostname and IP Address.
     
@@ -40,7 +40,7 @@ Let's dive into some common scenarios and their solutions:
     * ✅ If service is running, inspect firewall, logs, and configuration.
         
 
-**Issue 3: Unable to SSH** 🔍 **Approach / Solution**:
+### **Issue 3: Unable to SSH** 🔍 **Approach / Solution**:
 
 * ✅ Ping server by Hostname and IP Address.
     
@@ -51,7 +51,7 @@ Let's dive into some common scenarios and their solutions:
 * 📋 Check service status, firewall, logs, and configuration.
     
 
-**Issue 4: Full Disk Space or Disk Extension** 🔍 **Approach / Solution**:
+### **Issue 4: Full Disk Space or Disk Extension** 🔍 **Approach / Solution**:
 
 * ✅ Detect system performance degradation.
     
@@ -62,7 +62,7 @@ Let's dive into some common scenarios and their solutions:
     * 📁 Add new disk, create partitions (LVM), extend filesystems.
         
 
-**Issue 5: Corrupted Filesystem** 🔍 **Approach / Solution**:
+### **Issue 5: Corrupted Filesystem** 🔍 **Approach / Solution**:
 
 * ✅ Check logs for errors causing boot failure.
     
@@ -71,7 +71,7 @@ Let's dive into some common scenarios and their solutions:
     * 🔧 Reboot into rescue mode, fix filesystem, edit `fstab` entries.
         
 
-**Issue 6: Fstab File Errors** 🔍 **Approach / Solution**:
+### **Issue 6: Fstab File Errors** 🔍 **Approach / Solution**:
 
 * ✅ Check logs for boot errors.
     
@@ -80,57 +80,57 @@ Let's dive into some common scenarios and their solutions:
     * 🔧 Reboot into rescue mode, fix filesystem, edit `fstab` entries.
         
 
-**Issue 7: Can't cd to Directory** 🔍 **Approach / Solution**:
+### **Issue 7: Can't cd to Directory** 🔍 **Approach / Solution**:
 
 * 📋 Check directory existence, path conflicts, permissions, and executability.
     
 
-**Issue 8: Can't Create Links** 🔍 **Approach / Solution**:
+### **Issue 8: Can't Create Links** 🔍 **Approach / Solution**:
 
 * 📋 Check target existence, path conflicts, permissions, ownership.
     
 
-**Issue 9: Running Out of Memory** 🔍 **Approach / Solution**:
+### **Issue 9: Running Out of Memory** 🔍 **Approach / Solution**:
 
 * 📈 Monitor cache and RAM usage with commands like `free -h`.
     
 * ❗ Identify memory-hungry processes, adjust priorities, extend swap space.
     
 
-**Issue 10: Add/Extend Swap Space** 🔍 **Approach / Solution**:
+### **Issue 10: Add/Extend Swap Space** 🔍 **Approach / Solution**:
 
 * ❗ Create swap file, set permissions, enable swap with `swapon`.
     
 * 📋 Update `fstab` for persistence.
     
 
-**Issue 11: Unable to Run Commands** 🔍 **Approach / Solution**:
+### **Issue 11: Unable to Run Commands** 🔍 **Approach / Solution**:
 
 * ❗ Troubleshoot permission, sudo access, paths, installation issues.
     
 
-**Issue 12: Unexpected System Reboot and Process Restart** 🔍 **Approach / Solution**:
+### **Issue 12: Unexpected System Reboot and Process Restart** 🔍 **Approach / Solution**:
 
 * 🔄 Investigate system crash reasons (CPU, RAM, kernel, hardware).
     
 * 🔁 Understand process restart methods and watchdog applications.
     
 
-**Issue 13: Unable to Get IP Address** 🔍 **Approach / Solution**:
+### **Issue 13: Unable to Get IP Address** 🔍 **Approach / Solution**:
 
 * 🔌 Check IP assignment methods (DHCP, Static).
     
 * ❗ Troubleshoot network settings, NIC status, and restart network service.
     
 
-**Issue 14: Backup and Restore File Permissions** 🔍 **Approach / Solution**:
+### **Issue 14: Backup and Restore File Permissions** 🔍 **Approach / Solution**:
 
 * 📋 Create ACL file before changing permissions, restore with `setfacl`.
     
 * 📸 Consider VM snapshots or rebuilds for restoring permissions.
     
 
-💡 **Useful Disk Partition Tip** 💡:
+### 💡 **Useful Disk Partition Tip** 💡:
 
 * 📊 Rescan new disk status with `echo 1 > /sys/block/sda/device/rescan`.
     
