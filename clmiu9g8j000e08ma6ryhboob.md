@@ -3,6 +3,7 @@ title: "DevOps Ecosystem: Technologies and Tools"
 datePublished: Thu Sep 14 2023 07:17:58 GMT+0000 (Coordinated Universal Time)
 cuid: clmiu9g8j000e08ma6ryhboob
 slug: devops-ecosystem-technologies-and-tools
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1694675898088/04e76af9-0ad7-4017-a10c-a4a28d1d9e11.jpeg
 tags: 90daysofdevops
 
 ---
