@@ -3,7 +3,7 @@ title: "🌐 Infrastructure as Code: Streamlining Resource Provisioning"
 datePublished: Tue Sep 19 2023 06:28:15 GMT+0000 (Coordinated Universal Time)
 cuid: clmpxosbe000509mogwydds2c
 slug: infrastructure-as-code-streamlining-resource-provisioning
-cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1695104862178/ddbb88c4-33bb-4641-b2f9-dcee94f2babf.png
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1695104967678/557571ef-b755-40cf-a1f5-8c3ed464559a.png
 
 ---
 
