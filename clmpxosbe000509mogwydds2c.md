@@ -4,6 +4,7 @@ datePublished: Tue Sep 19 2023 06:28:15 GMT+0000 (Coordinated Universal Time)
 cuid: clmpxosbe000509mogwydds2c
 slug: day-13-infrastructure-as-code-streamlining-resource-provisioning
 cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1695104967678/557571ef-b755-40cf-a1f5-8c3ed464559a.png
+tags: terraform, devops90days
 
 ---
 
