@@ -3,6 +3,7 @@ title: "Day: 15 🚀 Grafana: Unleash the Power of Monitoring and Observability"
 datePublished: Fri Sep 22 2023 13:56:22 GMT+0000 (Coordinated Universal Time)
 cuid: clmuo0mpk000108mm533qah5l
 slug: day-15-grafana-unleash-the-power-of-monitoring-and-observability
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1695391507597/7acf6184-f16b-440e-9f3d-cab30e771cb1.png
 tags: grafana, 90daysofdevops, tws, grafana-monitoring
 
 ---
